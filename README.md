@@ -1,14 +1,22 @@
-# Default starter for Gridsome
+# Gridsome + Tailwind 2 + Firebase Starter Kit
 
-This is the project you get when you run `gridsome create new-project`.
+This project is a simple starter kit with a custom store (Vuex similar), Tailwind v2 and Firebase all ready to use.
 
 ### 1. Install Gridsome CLI tool if you don't have
 
 `npm install --global @gridsome/cli`
 
-### 2. Create a Gridsome project
+### 2. Install dependencies
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+1. `npm install` to install dependencies
+2. `cp .env.example .env`
+
+### 2. Insert your Firebase configurations keys on .env
+
+1. `npm install` to install dependencies
+2. `cp .env.example .env`
+
+### 3. Run
+
+1. `npm run server` to run development envroment
+2. `npm run build` to build and generate static files on `./dist` folder
