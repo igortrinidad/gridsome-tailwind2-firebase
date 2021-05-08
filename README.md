@@ -11,10 +11,10 @@ This project is a simple starter kit with a custom store (Vuex similar), Tailwin
 1. `npm install` to install dependencies
 2. `cp .env.example .env`
 
-### 2. Insert your Firebase configurations keys on .env
+### 2. Firebase configs
 
-1. `npm install` to install dependencies
-2. `cp .env.example .env`
+1. `cp .env.example .env` to copy .env structure
+2. Insert your projects configuration keys on `.env`
 
 ### 3. Run
 
